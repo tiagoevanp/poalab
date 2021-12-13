@@ -1,12 +1,16 @@
 import React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
-import Image from './resources/logo_poalab.svg';
-import './App.css';
+import { Home } from './components/Home';
+import { Header } from './components/Header';
 
 const App = () => (
-	<div className="App">
-		<p>Hello World</p>
-		<img src={Image} alt='logo poalab'/>
+	<div className="app">
+		<Header />
+		<Routes>
+			<Route path="/" element={<Home />} />
+			<Route path="open-day" element={<div></div>} />
+      	</Routes>
 	</div>
 );
 
