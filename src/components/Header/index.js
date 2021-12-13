@@ -19,5 +19,4 @@ export const Header = () => <nav className='nav-bar'>
 			<li><a href='#'>Links Úteis</a></li>
 		</ul>
 	</div>
-
 </nav>;

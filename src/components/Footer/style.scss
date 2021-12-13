@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    height: 160px;
+    margin-top: 24px;
+    padding: 24px;
+    border-top: lightgray solid 1px;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .ifrs-logo {
+        img {
+            width: 126px;
+            height: 126px;
+        }
+    }
+
+    .channels {
+        margin-left: 48px;
+        margin-right: 48px;
+        p {
+            font-size: 18px;
+        }
+
+        .links {
+            display: flex;
+            gap: 24px;
+        }
+    }
+}
