@@ -20,3 +20,14 @@ export const Header = () => <nav className='nav-bar'>
 		</ul>
 	</div>
 </nav>;
+
+export const VerticalMenu = () => <div className='vertical-nav-bar'>
+	<ul>
+		<li><Link to="/">Página Inicial</Link></li>
+		<li><Link to="/open-day">Open Day</Link></li>
+		<li><Link to="/equipments">Equipamentos</Link></li>
+		<li><Link to="/photos">Fotos</Link></li>
+		<li><Link to="/calendar">Calendário</Link></li>
+		<li><Link to="/links">Links Úteis</Link></li>
+	</ul>
+</div>;

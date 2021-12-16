@@ -4,11 +4,16 @@
 
 }
 
+@-ms-viewport{
+    width: device-width;
+}
+
 html, body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
 }
+
 
 .app {
     display: flex;

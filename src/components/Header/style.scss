@@ -1,3 +1,5 @@
+@import '../../colors.scss';
+
 .nav-bar {
 	display: flex;
 	width: 100%;
@@ -27,7 +29,20 @@
 	width: 100%;
 	margin-right: 24px;
 
+	.burguer-btn {
+		@media only screen and (max-width: 900px) {
+			display: block;
+		}
+
+		display: none;
+		cursor: pointer;
+	}
+
 	ul {
+		@media only screen and (max-width: 900px) {
+			display: none;
+		}
+
 		display: flex;
 		gap: 24px;
 	}
@@ -54,5 +69,25 @@
 				width: 100%;
 			}
 		}
+	}
+}
+
+.vertical-nav-bar {
+	display: none;
+
+	@media only screen and (max-width: 900px) {
+		display: block;
+	}
+
+	ul {
+		text-align: center;
+
+		li {
+			list-style: none;
+		}
+	}
+	a {
+		text-decoration: none;
+		color: $link;
 	}
 }
