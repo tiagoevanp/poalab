@@ -5,9 +5,11 @@ import { Equipments, Home, OpenDay } from './components/pages';
 import { Header } from './components/Header';
 import { Banner } from './components/Banner';
 import { Footer } from './components/Footer';
+import { Modal } from './components/Modal';
 
 const App = () => (
 	<div className="app">
+		<Modal />
 		<div>
 			<Header />
 			<Banner />
