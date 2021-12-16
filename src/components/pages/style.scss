@@ -1,0 +1,27 @@
+@import '../../colors.scss';
+
+.page-content {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: 68px;
+    margin-right: 68px;
+    max-width: 100%;
+
+    &-link {
+        color: $link;
+    }
+
+    &-text {
+        font-size: 18px;
+    }
+
+    &-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            font-size: 42px;
+            color: $title;
+        }
+    }
+}

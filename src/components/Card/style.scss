@@ -1,0 +1,45 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 384px;
+
+    border: 1px darkgray solid;
+    border-radius: 3px;
+    box-shadow: 0 5px 8px darkgray;
+
+    &:hover {
+        opacity: 50%;
+        cursor: pointer;
+    }
+
+    img {
+        height: 50%;
+        object-fit: cover;
+    }
+
+    &-text {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    &-title {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        font-size: 20px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 1;
+        line-clamp: 1;
+    }
+
+    &-description {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 4;
+        line-clamp: 4; 
+    }
+}

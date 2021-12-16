@@ -1,11 +1,13 @@
 @font-face {
     font-family: RedHeadDisplay;
     src: url('./resources/fonts/RedHatDisplay-VariableFont_wght.ttf');
+
 }
 
 html, body {
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 .app {
