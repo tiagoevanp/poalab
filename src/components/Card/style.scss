@@ -43,3 +43,24 @@
         line-clamp: 4; 
     }
 }
+
+.photo-card {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    height: 284px;
+
+    border: 1px darkgray solid;
+    border-radius: 3px;
+    box-shadow: 0 5px 8px darkgray;
+
+    &:hover {
+        opacity: 50%;
+        cursor: pointer;
+    }
+
+    img {
+        height: 100%;
+        object-fit: cover;
+    }
+}

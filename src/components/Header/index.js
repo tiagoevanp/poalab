@@ -14,7 +14,7 @@ export const Header = () => <nav className='nav-bar'>
 			<li><Link to="/">Página Inicial</Link></li>
 			<li><Link to="/open-day">Open Day</Link></li>
 			<li><Link to="/equipments">Equipamentos</Link></li>
-			<li><a href='#'>Fotos</a></li>
+			<li><Link to="/photos">Fotos</Link></li>
 			<li><a href='#'>Calendário</a></li>
 			<li><a href='#'>Links Úteis</a></li>
 		</ul>
