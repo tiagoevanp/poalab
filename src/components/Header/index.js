@@ -15,8 +15,8 @@ export const Header = () => <nav className='nav-bar'>
 			<li><Link to="/open-day">Open Day</Link></li>
 			<li><Link to="/equipments">Equipamentos</Link></li>
 			<li><Link to="/photos">Fotos</Link></li>
-			<li><a href='#'>Calendário</a></li>
-			<li><a href='#'>Links Úteis</a></li>
+			<li><Link to="/calendar">Calendário</Link></li>
+			<li><Link to="/links">Links Úteis</Link></li>
 		</ul>
 	</div>
 </nav>;
